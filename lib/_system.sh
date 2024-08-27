@@ -27,9 +27,9 @@ EOF
 # Arguments:
 #   None
 #######################################
-system_mv_folder() {
+system_git_clone() {
   print_banner
-  printf "${WHITE} 💻 Fazendo download do código...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Fazendo download do código Whaticket...${GRAY_LIGHT}"
   printf "\n\n"
 
 
@@ -38,7 +38,7 @@ system_mv_folder() {
   sudo su - deploy <<EOF
   git clone ${link_git} /home/deploy/${instancia_add}/
 EOF
- 
+
   sleep 2
 }
 
