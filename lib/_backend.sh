@@ -79,15 +79,6 @@ USER_LIMIT=${max_user}
 CONNECTIONS_LIMIT=${max_whats}
 CLOSED_SEND_BY_ME=true
 
-# GERENCIANET_SANDBOX=false
-# GERENCIANET_CLIENT_ID=Client_Id_Gerencianet
-# GERENCIANET_CLIENT_SECRET=Client_Secret_Gerencianet
-# GERENCIANET_PIX_CERT=certificado-Gerencianet
-# GERENCIANET_PIX_KEY=chave pix gerencianet
-
-# para usar GERENCIANET Em backend\certs
-# Salvar o certificado no formato .p12
-
 [-]EOF
 EOF
 

@@ -203,7 +203,7 @@ inquiry_options() {
   print_banner
   printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [1] Instalar \n"
+  printf "   [0] Instalar \n"
   printf "   [1] Atualizar \n"
   printf "   [2] Deletar \n"
   printf "   [3] Bloquear \n"
@@ -213,7 +213,7 @@ inquiry_options() {
   read -p "> " option
 
   case "${option}" in
-    1) get_urls ;;
+    0) get_urls ;;
 
     1) 
       software_update 
